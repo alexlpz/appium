@@ -1,4 +1,2 @@
 languaje: java
 sudo: false
-cache: bundler
-script: "./build_travis.sh"
