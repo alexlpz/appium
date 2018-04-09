@@ -1,1 +1,6 @@
 languaje: java
+sudo: false
+cache: bundler
+before_script:
+ - chmod +x build_travis.sh
+script: "./build_travis.sh"
