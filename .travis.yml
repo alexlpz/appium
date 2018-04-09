@@ -1,2 +1,4 @@
 language: java
-mvn test -B
+./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+./mvnw test -B
+ant test
